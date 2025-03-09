@@ -1,0 +1,49 @@
+
+
+
+
+form{width: 600px;
+    background-color: rgb(3, 17, 103);
+    height: auto;
+    padding: 50px;/*make the content of the form in center of the form */
+    white-space:pre-line;
+}
+
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:white}
+
+.input-group input,
+.input-group textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+#contact {
+    display: block;
+      padding: 10px;
+     
+       background-color: rgb(228, 199, 11);
+       color: rgb(0, 0, 0);
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+      width: 50%;
+       height: auto;
+    position: relative;
+    top :30px;
+    border-radius: 10px;
+    }
+
+button:hover {
+  background-color: rgb(228, 199, 11);
+    ;
+}

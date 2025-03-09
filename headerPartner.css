@@ -1,0 +1,113 @@
+#ul1{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    position: sticky;
+    float: left;
+}
+#ul2{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    position: sticky;
+    float: right;
+
+}
+li{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    float: inline-start;
+    color: rgb(23, 58, 118);
+    
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    /*color: rgb(46,77,131);*/
+
+}
+#logo-img{
+    
+    border-radius: 100px;
+    height: 40px;
+ 
+}
+ #ul1 li a:hover{
+    color: rgb(144, 155, 164);
+}
+
+
+
+#main-nav{
+    background-color:#2E4D83/*rgb(23,58,118)*/;
+    background: lrgba(106, 137, 237, 0.6);
+    height: 60px;
+}
+
+#main-nav li{
+    cursor: pointer;
+    color: aliceblue;
+}
+
+#account-nav ul{
+    display: none;
+    list-style: none;
+}
+
+#account-nav:hover{  
+    text-decoration: none;
+}
+
+#account-nav:hover ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E4D83;
+    cursor: pointer;
+    width: 155px;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+
+
+
+.circle {
+	float: left;
+	display: inline;
+	width: 10px;
+ 	height: 10px; 
+ 	margin-top: 8px;
+    margin-right: 3px;
+  border: 3px solid aliceblue;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 100%;
+}
+
+#account-img{
+    height: 35px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.account-list{
+    width: 155px;
+    border-radius: 20px;
+    color: aliceblue;   
+}
+
+.account-list a, .account-list:hover a{
+    color: aliceblue;   
+}
+
+.account-list:hover{
+    background-color: #233960;
+    text-decoration: none;
+    color: aliceblue;
+}
+

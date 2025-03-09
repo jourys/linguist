@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: url(../images/bg-image.png);
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+    
+}
+#logo-img{
+    top:5px;
+    left: 20px;
+    margin-top: 5px;
+    border-radius: 100px;
+    height: 40px;
+    position: absolute;
+  
+  }
+.hero{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+   
+} 
+
+.form-box{
+    
+    width: 370px;
+    height: 750px;
+    position: relative;
+    margin:  2% auto;
+    background: rgb(23, 58, 118);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+
+}
+
+.two-form{
+    display: flex;
+    gap: 20px;
+}
+.button-box{
+    width: 220px;
+    margin: 6% auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 20px;
+
+
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+     background: transparent;
+     border: 0;
+     outline: none;
+     position: relative;
+     color: white;
+
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: rgb(228, 199, 11);
+    
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.wrapper{
+     position: absolute;
+     top:-100px;
+     right: 70px;
+    border-radius: 7px;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper h3{
+    padding: 10px;
+    font-size: small;
+   position: relative;
+   right: 20px;
+   color: #999; /* update */
+   
+}
+.image{
+    position: relative;
+    top: 0;
+    transition: 0.2s;
+}
+.image #file-choose{
+    position: absolute;
+    right:2px;
+   
+    top:20px;
+    opacity: 0;
+    cursor: pointer;
+    transform: scale(1.5); /* تكبر الابلود فايل */
+   
+}
+.image img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.image:hover{
+    background: linear-gradient(#000); /* ماصار ظل*/
+}
+
+.input-group{
+    top:180px;
+   
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 3px 0;
+   
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    font-size: x-small;
+
+}
+/* not working */
+#pLevel{
+    margin-top: 10px;
+}
+.error-message{
+    color: rgb(198, 37, 37);
+    font-weight: bold;
+    display: block;
+}
+
+select{
+    color: #999; /* update */
+}
+h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #999; 
+   font-size:smaller; 
+}
+.language-container{
+    color: #999; 
+    
+   font-size:x-small;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 5% auto;
+    background: rgb(228, 199, 11);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    
+
+}
+#signup-learner{
+    left: 50px;
+
+}
+#signup-partner{
+    left: 450px;
+    
+}
+
+.checkbox{
+    margin: 30px 10px 10px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+}
+a{
+    color: darkblue;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .bottom section{
+    padding: 5px;
+    font-size: 0.9375rem;
+  }
+  .bottom section span{
+    color: #777;
+  }
+  .bottom section a{
+    color:rgb(228, 199, 11) ;
+    text-decoration: none;
+  }
+  .bottom section a:hover{
+   
+    text-decoration: underline;
+  }
+

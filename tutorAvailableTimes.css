@@ -1,0 +1,261 @@
+body{
+    
+    background-color: #d9d9d9;
+    background-image: url(../images/bg-image.png);   
+    background-size: cover;
+}
+
+main{
+    padding: 50px;
+    padding-top: 90px;
+    margin: 30px;
+}
+
+.containing-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #section-month {
+    margin: 0 auto; /* horizontally center */
+    width: 420px; 
+}
+
+#edit-req-header{
+    margin-bottom: 25px;
+}
+
+.request_div{
+    
+    background-color: #173A76;
+    width: 53%;
+    border: 3px solid rgb(0, 66, 128);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    box-sizing: border-box;
+    /* margin: auto; */
+}
+
+label{
+    margin: 7px;
+    margin-bottom: 10px;
+}
+
+
+.input-box{
+    padding: 2px;
+    border-radius: 8xp;
+    width: 160px;
+    height: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+
+
+
+.btn-container{
+    width: 65%;
+    margin: auto;
+}
+
+
+#save-btn, #discard-btn{
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color:  rgb(228, 199, 11) ;
+    width: 150px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+#save-btn{
+    background-color: rgb(82, 123, 82);
+    color: #ffffff;
+}
+
+#discard-btn{
+    background-color:  rgb(176, 57, 57);
+    color: #ffffff;
+}
+
+#save-btn:hover{
+    background-color: rgb(59, 91, 59);
+}
+
+#discard-btn:hover{
+    background-color: rgb(121, 58, 58);
+}
+
+/* Selection Styling */
+::selection {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Body Styling */
+  #body {
+    padding: 20px;
+    background: #d2d5e0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Resetting */
+  #ul,
+  #h1,
+  #h2,
+  #h3,
+  #h4 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Links, List Item, Header Nav Span, Article Span Styling */
+  #a,
+  #li,
+  #header-nav-span,
+  #article-span {
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+  
+  /* Header 1 Styling */
+  #h1 {
+    font: 300 28px 'Open Sans';
+    color: #4c5373;
+  }
+  
+  
+  /* Calendar Styling */
+  #section-month {
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 420px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  #current-month-year{
+    color: #173A76;
+  }
+  
+  #header {
+    position: relative;
+    display: block;
+    height: 80px;
+    background: #e9eaf0;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  #header h1 {
+    margin-left: 30px;
+    line-height: 80px;
+  }
+  
+/*   
+  Article Styling */
+  #article {
+    padding: 6px 0 25px 25px;
+  }
+  
+  #article b,
+  #article span {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin: 4px;
+    text-align: center;
+  }
+  
+  #article b {
+    font: 600 16px/45px 'Open Sans';
+    color: #204c5c;
+  }
+  
+  #article span {
+    font: 300 19px/45px 'Open Sans';
+    color: #4c5373;
+    box-shadow: inset 0 0 1px 1px #d9dce5;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  #article span.disable {
+    color: #b6bacc;
+    box-shadow: inset 0 0 1px 1px #f3f4f7;
+  }
+  
+  #article span:not(.disable):hover {
+    background: #cdd0dd;
+    box-shadow: inset 0 0 1px 1px #d9dce5, 0 1px 3px -1px #cdd0dd;
+  }
+  
+  #article span:not(.disable):active {
+    background: #b9becf;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.18), 0 0 0 #cdd0dd;
+  }
+  
+  /* Selected Date Styling  */
+  #dates .date.selected {
+    background-color:rgb(228, 199, 11);
+    color: #fff;
+  }
+  #appointment-hours-container {
+    margin-top: 20px;
+  }
+  
+  #appointment-hours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: #173A76;
+  }
+  
+  .appointment-hour {
+    width: calc(25% - 10px);
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .appointment-hour:hover {
+    background-color: #e0e0e0;
+  }
+
+   .date.selected {
+    background-color: rgb(228, 199, 11);
+    color: #fff;
+}
+
+.appointment-hour.selected {
+    background-color: rgb(228, 199, 11);
+    color: #fff;
+}
+
+.selected {
+    background-color: rgb(228, 199, 11);
+    color: #fff;
+}
+
+  /***************************/
+  

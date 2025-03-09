@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+#logo-img{
+    top:5px;
+    left: 20px;
+    margin-top: 5px;
+    border-radius: 100px;
+    height: 40px;
+    position: absolute;
+  
+  }
+.hero{
+    
+    background-image: url(../images/bg-image.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+   
+}
+
+.form-box{
+    
+    width: 500px;
+    height: 350px;
+    position: relative;
+    margin:  2% auto;
+    background: rgb(23, 58, 118);
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    top:200px;
+    text-align: center;
+    
+
+}
+.input-group{
+    top:60px;
+    left: 105px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+h2{
+    margin-top: 20px;
+    color: #999;
+  
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 12% auto;
+    background: rgb(228, 199, 11);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+
+}
+span{
+    color: #777;
+    font-size: 12px;
+}
+a{
+    color: darkblue;
+}
+.forgetPass {
+    margin-left: 150px; 
+  }
+  .bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .bottom section{
+    padding: 5px;
+    font-size: 0.9375rem;
+  }
+  .bottom section span{
+    color: #777;
+  }
+  .bottom section a{
+    color:rgb(228, 199, 11) ;
+    text-decoration: none;
+  }
+  .bottom section a:hover{
+   
+    text-decoration: underline;
+  }

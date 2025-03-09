@@ -1,0 +1,81 @@
+
+/* 
+colors hex
+dark blue : #173A76 , rgb(23,58,118) ******** prime
+slightly brighter : #2E4D83 , rgb(46,77,131)
+
+almost white : #d9d9d9 
+gray : #f8f9fa ******** prime
+input text :#172641 (23,38,65) 
+
+
+yellow :rgb(228, 199, 11) ******** prime 
+yellow in dark background :#CDB309
+
+*/
+.sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #d9d9d9;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #173A76;
+}
+
+.card {
+    background-color: #f8f9fa;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-body-profile {
+    padding: 20px;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+
+}
+.stats {
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+    margin: 0;
+}
+
+.stats li {
+    margin-bottom: 30px;
+}
+
+.stats li span {
+    display: block;
+}
+
+.stats li span:first-child {
+    font-weight: bold;
+}
+
+.stats li span:last-child {
+    color: #999;
+}
+.card-body-profile img {
+    width: 35%; /* Adjust image size as needed */
+    height: 35%; /* Adjust image size as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+  
+}
+
+.card-body  h2, .card-body p {
+    text-align: center;
+    margin: 0%;
+  
+}
+
+
+

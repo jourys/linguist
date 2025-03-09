@@ -1,0 +1,199 @@
+  
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* 
+colors hex
+dark blue : #173A76 , rgb(23,58,118) ******** prime
+slightly brighter : #2E4D83 , rgb(46,77,131)
+
+almost white : #d9d9d9 
+gray : #f8f9fa ******** prime
+input text :#172641 (23,38,65) 
+
+
+yellow :rgb(228, 199, 11) ******** prime 
+yellow in dark background :#CDB309
+
+*/
+.about-content{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #173A76;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{
+    background-image: url(../images/bg-image.png);
+    background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+
+}
+span{
+
+    font-weight: 900 ;
+}
+.lengo{
+    color: rgb(228, 199, 11);
+}
+.about-section{
+    padding: 10px;
+    margin: 50px;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #173A76;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.bar{
+   
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);  
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+   
+}
+.bar ul li .link{
+  
+    color:rgb(23, 58, 118);
+   
+}
+.header-main{
+    width: 100vw;
+    height: 40vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.header-content{
+    
+    margin: 100px;
+    color: #173A76;
+    text-align: center;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(228, 199, 11);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 50px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+
+}
+.title{
+font-size: larger;
+    font-weight: 600;
+}
+
+.about-conteniar{
+align-content: center;
+background-color: #ffffff00;
+width: 100%;
+justify-content: center;
+display: flex;
+
+}
+.about-conteniar-card{
+    background-color: #ffffff8e;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1);
+
+}
+.links{
+    display: flex;
+    align-items: center;
+  
+}
+.link:hover , .active{
+    border-bottom: 2px solid rgb(23, 58, 118);
+}
+
+.links li{
+    margin: 0 30px;
+}
+.join{
+    padding:8px 15px ;
+    background:rgb(228, 199, 11) ;
+    border-radius: 30px;
+    color: #d9d9d9;
+   
+}
+.join-us{
+    background:rgb(228, 199, 11) ;
+   padding: 7px 150px;
+    border-radius: 30px;
+    color: #173A76;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.service{
+    width: 100vw;
+    height: 100vh;
+    margin: 30px;
+    background-size: cover;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.col{
+   
+    flex-basis: 31%;
+    background: rgb(23, 58, 118);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .3 ;
+}
+.col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+h3{
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center; 
+    margin: 10px 0;
+}

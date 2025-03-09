@@ -1,0 +1,96 @@
+body{
+    
+    background-color: #d9d9d9;
+    background-image: url(../images/bg-image.png);   
+    background-size: cover;
+}
+
+main{
+    padding: 50px;
+    padding-top: 90px;
+}
+
+.containing-div{
+display: flex;
+margin: 100px 0px;
+}
+
+#edit-req-header{
+    margin-bottom: 25px;
+}
+
+.request_div{
+    height: 250px;
+    background-color: #173A76;
+    width: 53%;
+    border: 3px solid rgb(0, 66, 128);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+label{
+    margin: 7px;
+    margin-bottom: 10px;
+}
+
+
+.input-box{
+    padding: 2px;
+    border-radius: 8xp;
+    width: 160px;
+    height: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+
+.selectWrapper{
+    border-radius: 10px;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.btn-container{
+    width: 65%;
+    margin: auto;
+}
+
+
+#save-btn, #discard-btn{
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color:  rgb(228, 199, 11) ;
+    width: 150px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+#save-btn{
+    background-color: rgb(82, 123, 82);
+    color: #ffffff;
+}
+
+#discard-btn{
+    background-color:  rgb(176, 57, 57);
+    color: #ffffff;
+}
+
+#save-btn:hover{
+    background-color: rgb(59, 91, 59);
+}
+
+#discard-btn:hover{
+    background-color: rgb(121, 58, 58);
+}
+
+#clarification{
+    padding: 20px 0px 5px;
+    font-size: small;
+    text-align: center;
+}

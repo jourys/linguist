@@ -1,0 +1,99 @@
+ul{
+    list-style: none;
+}
+.bar{
+   
+    top: 0;
+    left: 0;
+    position:fixed;
+    background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);  
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+   
+}
+.bar ul li .link{
+    color:rgb(23, 58, 118);  
+}
+.links{
+    display: flex;
+    align-items: center;  
+}
+
+
+.links li{
+    margin: 0 30px;
+}
+
+.firstbox{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display:flex;  
+}
+
+
+.firstbox main{/* refrence is 
+    https://stackoverflow.com/questions/18816486/how-can-i-make-a-pointy-arrow-with-a-div-in-css   */
+    .rectcontainer {
+        height:30px;
+        width:100px;
+    }
+    
+    .arrowblock {
+        width:130px;
+        border-top: 15px solid transparent;
+    }
+    .arrowright {
+    float:right;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 30px solid green;
+    }
+    .rect {
+        width:100px;
+        height:10px;
+        background-color:transparent;
+    }
+}
+
+
+
+.E{
+     flex-basis: 40%; 
+     background: rgb(23, 58, 118);
+     padding: 50px 150px;
+     font-size: medium;
+     text-align: center;
+     color:  rgb(23, 58, 118);/*text color*/
+}
+
+.bs{
+    
+   
+        flex-basis: 40%; 
+        
+        padding: 50px 150px;
+        font-size: medium;
+        text-align: center;
+      
+   
+}
+
+sb{
+    flex-basis: 40%; 
+     background: rgb(23, 58, 118);
+     padding: 50px 150px;
+     font-size: medium;
+     text-align: center;
+  
+}
+h1{
+    position:relative;
+    text-align: center;
+    top: 4cm;
+    color:rgb(228, 199, 11); 
+}
